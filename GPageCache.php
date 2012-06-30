@@ -16,13 +16,6 @@ function joinPaths() {
   return preg_replace('#/{2,}#', '/', implode('/', $paths));
 }
 
-
-$PATH =  dirname(__FILE__);
-
-$CACHE_FOLDER= joinPaths($PATH,"cache");
-$DB_PATH = joinPaths($CACHE_FOLDER,"db.sqlite"); # Move if you dont want it public
-$SERVER_URL="http://gnet.homelinux.com/GPageCache/cache/";
-
 /**
 * Init the cache database and make sure we have a folder
 * @param $CACHE_FOLDER: The cache folder
