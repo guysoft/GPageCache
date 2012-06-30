@@ -1,0 +1,8 @@
+Global Page Cache
+-----------------
+A small simple webpage cacher for webservers
+
+
+For a usage example look at example.php
+
+Note: make sure that you have premissions to create the cache folder when running GPageCacheinit
